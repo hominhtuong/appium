@@ -167,7 +167,7 @@ $ gem install xcpretty
 - Chọn `Automatically manage signing` cho cả `WebDriverAgentLib` và `WebDriverAgentRunner` ở tab `General`.
 - Chọn `Development Team`. (Chưa có tài khoản thì tạo tự tạo nha)
 - Chọn `WebDriverAgentRunner`, chọn tab `Build Settings`. Đổi value của `Product Bundle Identifier` từ `com.facebook.WebDriverAgentRunner` thành 1 cái gì khác bất kỳ, ví dụ: `com.facebook.WebDriverAgentRunner.minhtuong`
-- Chọn thử mục `Configurations` trên Xcode, tạo 1 file `Config.xcconfig`, chèn vào 2 dòng sau:
+- Chọn thư mục `Configurations` trên Xcode, tạo 1 file `Config.xcconfig`, chèn vào 2 dòng sau:
 
 ```
 DEVELOPMENT_TEAM = DEVELOPMENT_TEAM 

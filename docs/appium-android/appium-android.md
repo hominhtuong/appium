@@ -40,7 +40,8 @@ $ brew install maven
 - Cài đặt và khởi động Android studio
 - Mở Android `SDK Manager`
 - Download SDK Platforms (Android 6,7,8,9,..), SDK Tools
-![Example](https://github.com/hominhtuong/appium/blob/master/resources/sdk-manager.png)
+
+<img src="https://github.com/hominhtuong/appium/blob/master/resources/sdk-manager.png" alt="Example" width="720" height ="478"/>
 
 
 #### Bước 6: Cài đặt [nodeJS](https://nodejs.org/en/download/)

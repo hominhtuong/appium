@@ -9,6 +9,8 @@ public class Constants {
     public static final String xcodeOrgId = "9T8U353GC7";
     public static final String xcodeSigningId = "iPhone Developer";
     public static final Boolean NO_RESET = true;
-    public static final String xcodeConfigFile = "/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/Config.xcconfig";
+    public static final String xcodeConfigFile = "/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/Configirations/Config.xcconfig";
 
+
+    public static final String rootReport =  "src/reports/";
 }

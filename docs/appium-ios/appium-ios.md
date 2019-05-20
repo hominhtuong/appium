@@ -11,15 +11,13 @@
 ```bash
 $ xcode-select --install
 ```  
- 
-#### Bước 2: Cài đặt java JDK:
-- Download và cài đặt: [Java SE Development Kit 8](https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.html) (_Khuyến khích_)
-- Hoặc thông qua Terminal: 
+#### Bước 2: Cài đặt [homebrew:](https://brew.sh/)
+- Mở Terminal, nhập vào:
 
 ```bash
-$ brew cask install java 
-$ java -version
-``` 
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
 
 - Nếu cài đặt thành công sẽ có kết quả giống vầy:
 ```
@@ -30,13 +28,14 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.211-b12, mixed mode)
 
 #### Bước 3: Download [IntelliJ IDEA:](https://www.jetbrains.com/idea/download/#section=mac) (`Chọn phiên bản Community Edition, free và đủ dùng`)
 
-#### Bước 4: Cài đặt [homebrew:](https://brew.sh/)
-- Mở Terminal, nhập vào:
+#### Bước 4: Cài đặt java JDK:
+- Download và cài đặt: [Java SE Development Kit 8](https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.html) (_Khuyến khích_)
+- Hoặc thông qua Terminal: 
 
 ```bash
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
+$ brew cask install java 
+$ java -version
+``` 
 
 #### Bước 5: Cài đặt [nodeJS](https://nodejs.org/en/download/)
 
@@ -150,7 +149,7 @@ $ mkdir -p Resources/WebDriverAgent.bundle
 $ ./Scripts/bootstrap.sh -d 
 ```
 
-#### Bước 12 : Setup để chạy được trên real device  (Lúc này chắc chắn Xcode đã cài xong rồi nha, nếu chưa cài thì chờ cài xong rồi làm tiếp)
+#### Bước 12 : Setup để chạy được trên real device  (Lúc này chắc chắn Xcode và Xcode Command line đã cài xong rồi nha, nếu chưa cài thì chờ cài xong rồi làm tiếp)
 - Mở Terminal, nhập vào:
 
 ```bash
@@ -176,7 +175,8 @@ CODE_SIGN_IDENTITY = iPhone Developer
 - Để lấy DEVELOPMENT_TEAM, mở `Keychain Access` trên Mac, ở mục category, chọn My Certificates, chọn development team, ví dụ:
 `iPhone Developer: minhtuongitc@gmail.com(9T8xxx)`
 - Copy đoạn trong ngoặc, pass vào DEVELOPMENT_TEAM ở bên trên.
-![Example](https://github.com/hominhtuong/appium/blob/master/resources/keychain-access.png)
+
+<img src="https://github.com/hominhtuong/appium/blob/master/resources/keychain-access.png" alt="Key Chain" width="720" height ="478"/>
  
 
 ##### Vậy là đã hoàn tất các bước cài đặt.
@@ -196,7 +196,7 @@ public class Test {
     public static final String bundleId = "com.minhtuong.xxx";
     public static final String xcodeOrgId = "9T8xxx";
     public static final String xcodeSigningId = "iPhone Developer";
-    // public static final String xcodeConfigFile = "/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/Configurations/Config.xcconfig"; //Optional
+    public static final String xcodeConfigFile = "/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/Configurations/Config.xcconfig"; //Optional
     public static final Boolean NO_RESET = true;
     //
     
@@ -216,7 +216,7 @@ public class Test {
         capabilities.setCapability("bundleId", Constants.bundleId);
         capabilities.setCapability("xcodeOrgId", Constants.xcodeOrgId);
         capabilities.setCapability("xcodeSigningId", Constants.xcodeSigningId);
-        //capabilities.setCapability("xcodeConfigFile",Constants.xcodeConfigFile); // Optional
+        capabilities.setCapability("xcodeConfigFile",Constants.xcodeConfigFile);  //Optional
 
         URL remoteAddress = new URL("http://0.0.0.0:4723/wd/hub");
 

@@ -5,8 +5,14 @@ import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
+import org.openqa.selenium.TakesScreenshot;
+import utils.Utils;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 
 public class MobileActions {
@@ -76,4 +82,26 @@ public class MobileActions {
         touchAction().press(startPointOption).waitAction(waitOptions).moveTo(endPointOption).waitAction().release().perform();
 
     }
+
+    //screen capture
+
+    /**
+     *
+     * @param imageName
+     * @return: AbsolutePath of Image. (Image has been saved at folder "Report/.../Images")
+     */
+    public String takeScreenshot(String imageName) {
+
+        String pathName = Utils.createDir(Utils.getReportDir() + "/Images");
+        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
+        File image = new File(pathName, imageName + ".png");
+        try {
+            FileUtils.copyFile(scrFile, image);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return image.getAbsolutePath();
+    }
+
 }

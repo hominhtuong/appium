@@ -2,7 +2,9 @@ package test;
 
 import actions.MobileActions;
 import appium.AppiumServer;
+import com.aventstack.extentreports.ExtentReports;
 import constants.Constants;
+import extentreports.ExtentReport;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.AutomationName;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -16,7 +18,12 @@ public class BaseTest {
 
     protected IOSDriver driver;
     protected MobileActions actions;
+    protected static ExtentReports extent;
 
+    @BeforeSuite
+    public void beforeSuite() {
+        extent = ExtentReport.shared().getExtent();
+    }
 
     @BeforeTest
     public void setupDriver() {
@@ -34,7 +41,7 @@ public class BaseTest {
         capabilities.setCapability("xcodeSigningId", Constants.xcodeSigningId);
         capabilities.setCapability("xcodeConfigFile",Constants.xcodeConfigFile);
 
-        driver = new IOSDriver(AppiumServer.shared().initAppiumService().getUrl(),capabilities);
+        driver = new IOSDriver(AppiumServer.shared().appiumService().getUrl(),capabilities);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         actions = new MobileActions(driver);
@@ -42,10 +49,15 @@ public class BaseTest {
     }
 
     @AfterTest
-    private void teardown() {
+    protected void endTest() {
 
         if (driver!= null)
             driver.quit();
-        AppiumServer.shared().stop();
+        AppiumServer.shared().appiumStop();
+    }
+
+    @AfterSuite
+    protected void flushReport(){
+        extent.flush();
     }
 }

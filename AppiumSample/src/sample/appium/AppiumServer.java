@@ -20,7 +20,7 @@ public class AppiumServer {
     private AppiumServiceBuilder builder;
 
 
-    public AppiumDriverLocalService initAppiumService() {
+    public AppiumDriverLocalService appiumService() {
         if (appiumService == null) {
             String appiumJSPath = "/usr/local/lib/node_modules/appium/build/lib/main.js";
             builder = new AppiumServiceBuilder()
@@ -39,15 +39,7 @@ public class AppiumServer {
     }
 
 
-    public void start() {
-
-        if (appiumService.isRunning()) {
-            return;
-        }
-        appiumService.start();
-    }
-
-    public void stop() {
+    public void appiumStop() {
 
         if (appiumService != null) {
             appiumService.stop();

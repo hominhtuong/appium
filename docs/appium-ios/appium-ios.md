@@ -18,6 +18,15 @@ $ xcode-select --install
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+#### Bước 3: Cài đặt java JDK:
+- Download và cài đặt: [Java SE Development Kit 8](https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.html) (_Khuyến khích_)
+- Hoặc thông qua Terminal: 
+
+```bash
+$ brew cask install java 
+$ java -version
+``` 
+
 
 - Nếu cài đặt thành công sẽ có kết quả giống vầy:
 ```
@@ -26,16 +35,8 @@ Java(TM) SE Runtime Environment (build 1.8.0_211-b12)
 Java HotSpot(TM) 64-Bit Server VM (build 25.211-b12, mixed mode)
 ```
 
-#### Bước 3: Download [IntelliJ IDEA:](https://www.jetbrains.com/idea/download/#section=mac) (`Chọn phiên bản Community Edition, free và đủ dùng`)
+#### Bước 4: Download [IntelliJ IDEA:](https://www.jetbrains.com/idea/download/#section=mac) (`Chọn phiên bản Community Edition, free và đủ dùng`)
 
-#### Bước 4: Cài đặt java JDK:
-- Download và cài đặt: [Java SE Development Kit 8](https://www.oracle.com/technetwork/java/javaee/downloads/jdk8-downloads-2133151.html) (_Khuyến khích_)
-- Hoặc thông qua Terminal: 
-
-```bash
-$ brew cask install java 
-$ java -version
-``` 
 
 #### Bước 5: Cài đặt [nodeJS](https://nodejs.org/en/download/)
 

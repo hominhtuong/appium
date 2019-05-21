@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6706ff39-7a1a-4682-afee-b29efc06a10c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/utils/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/utils/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/actions/MobileActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/actions/MobileActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/appium/AppiumServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/appium/AppiumServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/constants/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/objects/ProfileObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/objects/ProfileObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/test/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/test/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/test/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/appium/AppiumServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/appium/AppiumServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/constants/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/TestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/appium-android/appium-android.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/appium-android/appium-android.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/appium-ios/appium-ios.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/appium-ios/appium-ios.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/actions/MobileActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1263">
+            <state relative-caret-position="1545">
               <caret line="105" selection-start-line="105" selection-end-line="105" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -45,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/constants/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="166" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="166" />
+            <state relative-caret-position="210">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -57,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/utils/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-541">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="164">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,35 +53,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/test/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-215">
+            <state relative-caret-position="15">
               <caret line="33" column="52" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="12" selection-start-line="12" selection-end-line="12" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../docs/appium-ios/appium-ios.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="654">
-                <caret line="220" column="66" lean-forward="true" selection-start-line="220" selection-start-column="66" selection-end-line="220" selection-end-column="66" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -126,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/extentreports/ExtentReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
+            <state relative-caret-position="555">
               <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
             </state>
           </provider>
@@ -137,6 +97,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/utils/Log.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -284,7 +257,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,12 +330,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestClass - 2019.05.11 at 16h 48m 09s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass - 2019.05.20 at 14h 36m 02s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestClass - 2019.05.20 at 14h 52m 22s.xml">
       <configuration name="TestClass" configurationId="TestNG" />
     </history-entry>
@@ -388,12 +354,18 @@
     <history-entry file="TestClass - 2019.05.20 at 15h 31m 13s.xml">
       <configuration name="TestClass" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestClass - 2019.05.20 at 15h 43m 26s.xml">
+      <configuration name="TestClass" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass - 2019.05.20 at 15h 44m 58s.xml">
+      <configuration name="TestClass" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -402,7 +374,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32871014" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32871014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,7 +387,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Codota" order="4" />
+      <window_info anchor="right" id="Codota" order="4" weight="0.3297568" />
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -442,13 +414,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/test/MTTestr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/test/MTTestr.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
@@ -456,23 +422,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/extentreports/VatoExtentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reports/20-05-2019_14-51-51/log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/extentreports/VatoExtentTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/reports/20-05-2019_14-51-51/log.txt" />
     <entry file="file://$PROJECT_DIR$/js.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -504,84 +455,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/utils/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/actions/Direction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/appium/AppiumServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/actions/MobileActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1263">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-541">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reports/20052019-151059/report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/constants/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="166" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="166" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/extentreports/ExtentReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/objects/ProfileObjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/test/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/src/reports/20052019-151059/report.html" />
+    <entry file="file://$PROJECT_DIR$/../docs/appium-ios/appium-ios.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="158">
+            <caret line="220" column="66" lean-forward="true" selection-start-line="220" selection-start-column="66" selection-end-line="220" selection-end-column="66" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -595,13 +476,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../docs/appium-ios/appium-ios.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="654">
-            <caret line="220" column="66" lean-forward="true" selection-start-line="220" selection-start-column="66" selection-end-line="220" selection-end-column="66" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/sample/actions/MobileActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="105" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/appium/AppiumServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/actions/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/extentreports/ExtentReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/objects/ProfileObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/test/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/utils/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/constants/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>

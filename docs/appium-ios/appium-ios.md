@@ -73,7 +73,7 @@ $ open -e .bash_profile
 export ANDROID_HOME=/Users/minhtuong/Library/Android/sdk
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 export PATH=$ANDROID_HOME/tools:$PATH
-export JAVA_HOME=$(/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk)
+export JAVA_HOME=$(/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk)
 export PATH=${JAVA_HOME}/Contents/Home/bin:$PATH
 export PATH=/usr/local/bin:/usr/local/sbin:~/bin:$PATH
 export PATH=$PATH:/opt/bin:$PATH
